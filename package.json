@@ -1,5 +1,5 @@
 {
-  "name": "lf-cli",
+  "name": "loadforge-cli",
   "version": "0.1.0",
   "description": "CLI helper for LoadForge: sync tests, trigger runs, and wait for results.",
   "main": "index.js",
@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "lf-cli": "./index.js"
+    "lf-cli": "./index.js",
+    "loadforge-cli": "./index.js"
   },
   "keywords": ["loadforge", "load-testing", "cli", "locust"],
   "author": "",
