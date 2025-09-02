@@ -1,0 +1,38 @@
+{
+  "name": "lf-cli",
+  "version": "0.1.0",
+  "description": "CLI helper for LoadForge: sync tests, trigger runs, and wait for results.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "lf-cli": "./index.js"
+  },
+  "keywords": ["loadforge", "load-testing", "cli", "locust"],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdventDevInc/lf-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AdventDevInc/lf-cli/issues"
+  },
+  "homepage": "https://github.com/AdventDevInc/lf-cli#readme",
+  "files": [
+    "index.js",
+    "src/**",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "commander": "^14.0.0",
+    "dotenv": "^17.2.1"
+  }
+}
