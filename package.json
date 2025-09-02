@@ -7,10 +7,15 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "lf-cli": "./index.js",
-    "loadforge-cli": "./index.js"
+    "lf-cli": "index.js",
+    "loadforge-cli": "index.js"
   },
-  "keywords": ["loadforge", "load-testing", "cli", "locust"],
+  "keywords": [
+    "loadforge",
+    "load-testing",
+    "cli",
+    "locust"
+  ],
   "author": "",
   "license": "MIT",
   "repository": {
